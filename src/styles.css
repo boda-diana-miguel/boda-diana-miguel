@@ -4,7 +4,7 @@ body { height: 100%;
     margin: 0; 
     font-family: 'Comic Neue'; 
     background-color:#79e1dd;
-    background-image: url("/assets/images/fondo21.svg");
+    background-image: url("assets/images/fondo21.svg");
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
