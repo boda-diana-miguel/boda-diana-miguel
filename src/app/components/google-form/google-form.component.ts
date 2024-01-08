@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-google-form',
@@ -6,12 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./google-form.component.css']
 })
 export class GoogleFormComponent {
+  alto : string | undefined
+  
+  ngOnInit(){
+    this.alto = "600 px"
+  };
+  
 
-  constructor(){
-    window.onerror = function(errmessage)
-    {
-        console.log(errmessage);
-    }
+  resizeIframe(obj:any) {
+    console.log(obj)
+    this.alto = document.getElementById('iframe')?.scrollHeight + 'px';
   }
 
 }

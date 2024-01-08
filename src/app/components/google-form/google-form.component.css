@@ -3,4 +3,35 @@ iframe{
     height: 100%;
     position: absolute;
     background-color: #79e1dd;
+    display: block;
 }
+
+div{
+    margin-bottom: 15%
+}
+
+@media screen and (max-height: 600px) {
+
+    iframe{
+        height: 300%;
+    }
+
+    div{
+        margin-bottom: 5%
+    }
+
+    
+  }
+
+  @media screen and (max-height: 800px) {
+
+    iframe{
+        height: 160%;
+    }
+
+    div{
+        margin-bottom: 5%
+    }
+
+    
+  }
