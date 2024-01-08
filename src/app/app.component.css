@@ -1,0 +1,28 @@
+.tab-icon {
+    margin-right: 8px;
+  }
+.see-border {
+  border-style: solid;
+  border-color: black;
+}
+.header {
+  background-color:#98BC62;
+  height: 55%;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.title {
+  font-family: MedievalSharp;
+  display: flex;
+  margin-top: 2%;
+  color: lightyellow;
+}
+
+.mdc-tab__text-label { 
+  font-family: MedievalSharp;
+  font-weight: bold;
+}

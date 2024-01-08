@@ -1,0 +1,17 @@
+.content {
+    margin: 5%;
+    font-family: 'Comic Neue'; 
+}
+
+.photo {
+    margin-bottom: 5%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mat-card-content{
+    font-size: medium;
+    text-align: center;
+}

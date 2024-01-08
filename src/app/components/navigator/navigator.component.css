@@ -1,0 +1,16 @@
+.tab-icon {
+    padding-right: 15%;
+  }
+.see-border {
+  border-style: solid;
+  border-color: black;
+}
+.mdc-tab__text-label, span{ 
+  font-family: MedievalSharp;
+  font-weight: bold;
+}
+.menu-container{
+  margin: 3%;
+  float: right;
+}
+  
