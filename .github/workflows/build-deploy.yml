@@ -16,7 +16,7 @@ with:
 - uses: actions/cache@v1
 with:
 path: ~/.npm
-key: ${{ runner.os }}-node-${{ hasFiles('**/package-lock.json') }}
+key: ${{ runner.os }}-node-${{ hasFiles("**/package-lock.json") }}
 # restore-keys: |
 # ${{ runner.os }}-node-.
 - name: Build
