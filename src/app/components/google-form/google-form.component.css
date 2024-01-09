@@ -13,7 +13,7 @@ div{
 @media screen and (max-height: 1000px) {
 
     iframe{
-        height: 500%;
+        height: 1000%;
     }
 
     div{
