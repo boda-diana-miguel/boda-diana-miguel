@@ -21,6 +21,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { GoogleFormComponent } from './components/google-form/google-form.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     MatButtonModule,
     MatListModule,
     MatSelectModule,
-    MatDialogModule
+    MatDialogModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
