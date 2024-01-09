@@ -16,7 +16,7 @@ export class AppComponent {
   }
   isLoaded(){
     if(this.loaded){
-      return "block"
+      return ""
     } else {
       return "none"
     }
