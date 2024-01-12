@@ -13,6 +13,9 @@
 
 mat-card-content{
     text-align: center;
+}
+
+p {
     font-size: small;
     font-family: 'Comic Neue'; 
 }
