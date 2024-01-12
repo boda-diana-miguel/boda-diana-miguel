@@ -1,47 +1,11 @@
-<div class="navigator">
-  <!-- 
-    <mat-tab-group fitInkBarToContent="true" color="accent">
-      <mat-tab>
-        <ng-template mat-tab-label >
-          <mat-icon class="tab-icon">favorite_border</mat-icon>
-          Información general
-        </ng-template>
-        <app-general-info></app-general-info>
-      </mat-tab>
-
-      <mat-tab>
-        <ng-template mat-tab-label>
-          <mat-icon class="tab-icon">question_answer</mat-icon>
-           Preguntas frecuentes
-        </ng-template>
-        <app-questions></app-questions>
-      </mat-tab>
-
-      <mat-tab>
-        <ng-template mat-tab-label>
-          <mat-icon class="tab-icon">playlist_add_check</mat-icon>
-          Confirmación de asistencia
-        </ng-template>
-        <app-attendance></app-attendance>
-      </mat-tab>
-    </mat-tab-group>
-    -->
-
-<div class="menu-container">
-    <button mat-mini-fab [matMenuTriggerFor]="menu" >
-      <mat-icon>castle</mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>
-        <mat-icon>favorite_border</mat-icon>
-        <a routerLink="/">Información del evento</a>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>playlist_add_check</mat-icon>
-        <a routerLink="/attendance">Confirmación de asistencia</a>
-      </button>
-    </mat-menu>
-  </div>
+<div class="content">
+    <div class="table">
+      <div class="text">
+        <p class="header"><b>Acceso al formulario de asistencia</b></p>
+        <button mat-mini-fab (click)="openForm()">
+          <mat-icon>assignment</mat-icon>
+        </button>
+      </div>
+      <img src="assets/images/tablamadera.svg">
+    </div>
 </div>
-
-<router-outlet></router-outlet>
