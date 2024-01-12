@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { iframeResizer } from "iframe-resizer"
+//import { iframeResizer } from "iframe-resizer"
 
 @Component({
   selector: 'app-google-form',
@@ -7,8 +7,8 @@ import { iframeResizer } from "iframe-resizer"
   styleUrls: ['./google-form.component.css']
 })
 export class GoogleFormComponent {
-  ngOnInit(){
-    iframeResizer({ log: true }, '#iframe')
-  }
+  // ngOnInit(){
+  //   iframeResizer({ log: true }, '#iframe')
+  // }
 }
 
